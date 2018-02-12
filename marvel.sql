@@ -146,8 +146,6 @@ INSERT INTO attendances (person_id, movie_id) VALUES (19, 8);
 INSERT INTO attendances (person_id, movie_id) VALUES (19, 2);
 INSERT INTO attendances (person_id, movie_id) VALUES (5, 7);
 
-
-
 ---------------------------- ANSWERS -------------------------
 
 -- 1)	Return ALL the data in the 'movies' table -------
@@ -203,7 +201,6 @@ UPDATE movies SET show_time = '21:30' WHERE title = 'Guardians of the Galaxy';
 SELECT * FROM movies;
 
 
-
 ---------------------- Extension -------------------------
 
 --How to delete  multiple entries from your table in a single command.
@@ -212,3 +209,5 @@ DELETE FROM movies
 WHERE (title = 'Guardians of the Galaxy')
 OR (title = 'Guardians of the Galaxy 2');
 SELECT * FROM movies;
+
+-----------------------------------------------------------
